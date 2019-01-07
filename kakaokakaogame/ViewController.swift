@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var img7 = UIImage(named:"kaka")!
+    
+    @IBOutlet weak var image1: UIImageView!
+    
+    @IBAction func button3(_ sender: UIButton) {
+        image1.image = img7
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
